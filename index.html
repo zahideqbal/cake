@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Frame</title>
+    <link rel="stylesheet" href="birth.css">
+</head>
+
+<style>
+    .mobile-footer {
+        width: 100%;
+        background: #ffdde6;
+        padding: 12px 10px;
+        text-align: center;
+        font-size: 14px;
+        color: #d63384;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.2);
+    }
+    .text{
+        position: relative;bottom: 200px; right: 130px;
+        /* font-size: 20px;
+        font-weight: bold;
+        color: #d63384;
+        position: relative;
+        top: 50px;
+        left: 20px; */
+    }
+    body {
+    margin: 0;
+    padding: 0;
+    background: #111;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.frame {
+    width: 100%;
+    max-width: 420px;   /* Phone size */
+    margin: auto;
+    padding: 15px;
+    background: #000;
+    border-radius: 20px;
+}
+
+.month {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.calendar {
+    text-align: center;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 15px;
+}
+
+.highlight {
+    background: red;
+    color: #fff;
+    padding: 2px 6px;
+    border-radius: 5px;
+}
+
+.message {
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+    line-height: 20px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6px;
+    margin-top: 15px;
+}
+
+.gallery img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+   
+ 
+}
+
+.bottom-text {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.video-box {
+    position: relative;
+    width: 100%;
+    height: 80px;
+   
+}
+</style>
+
+<body>
+
+    <div class="frame">
+
+
+             <div class="video-box">
+        <video controls width="100%" autoplay playsinline loop>
+            <source src="video.mp4" type="video/mp4">
+            Your device does not support the video tag.
+        </video>
+    </div>
+
+
+    <div class="mobile-footer">
+        © Devloped by <mark>Zahid</mark>❤️ for your Special Day
+    </div>
+
+</body>
+
+</html>
+
+   
+
+
